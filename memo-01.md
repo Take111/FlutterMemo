@@ -23,3 +23,11 @@
     ),
   );
   ```
+
+- DebugのBannerを隠す
+  
+  Flutter inspector -> More Actions -> Hide Debug Mode Banner
+  
+- Option + Enter
+  
+  Option + Enterをクリックすると、Center widgetとか色々出てくる
