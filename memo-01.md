@@ -31,3 +31,34 @@
 - Option + Enter
   
   Option + Enterをクリックすると、Center widgetとか色々出てくる
+
+- ColumnとRow
+  
+  Columnが縦に並べるときに使う
+  
+  Rowが横に並べるときに使う
+
+- 次の画面への遷移
+
+```
+body: Center(
+        child: RaisedButton(
+          child: Text('次へのボタン'),
+          onPressed: () {
+            // ここにActionを書いていく
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => NextPage(), // NextPage()は新しく用意した
+              ),
+            );
+          },
+        ),
+      ),
+```
+
+- Flutterのドキュメント
+
+ここにサンプルコード付きで、いろいろな動きが紹介されている
+
+https://flutter.dev/docs/cookbook
